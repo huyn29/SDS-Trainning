@@ -25,11 +25,11 @@ public class vanBan {
         return chuoiTu.replaceAll("\\s+", " ").toLowerCase(); //regex
     }
 
-    public String vietHoaChuoi() {
+    public String vietChuHoa() {
         return vanBan.toUpperCase();
     }
 
-    public String vietThuong() {
+    public String vietChuThuong() {
         return vanBan.toLowerCase();
     }
     public String vietHoaChuCaiDau() {
