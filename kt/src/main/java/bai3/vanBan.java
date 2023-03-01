@@ -10,7 +10,6 @@ public class vanBan {
         this.vanBan = vanBan;
     }
 
-    // Phương thức đếm số từ trong văn bản
     public int demSoTu() {
         String chuoiTu = vanBan.trim();
         if (chuoiTu.isEmpty()) {
